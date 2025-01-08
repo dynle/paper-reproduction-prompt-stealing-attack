@@ -19,6 +19,16 @@ row = {
     'inferred_image_save_namelist': ["00000.png","00001.png","00002.png","00003.png"]
 }
 
+# TODO: change like this
+'''
+for file in foler:
+    name =
+    row = {
+        'ori_image_name': f"{name}.jpg",
+        'inferred_image_save_namelist': [f"{name}_1.png","00001.png","00002.png","00003.png"]
+    }
+'''
+
 
 res_img_sim = get_image_similarity(row, "./data/test_images/ori_image", "./data/test_images/inferred_images")
 
